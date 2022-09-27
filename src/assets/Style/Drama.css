@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dancing+Script&family=Poppins:ital,wght@1,200&family=Quicksand&family=Sofia&display=swap');
+body {
+background-color: #f6d9c9; 
+}
+
+.Box-Drama {
+    width: 1100px;
+    height: 200px;
+    background-color: #fff7e6;
+    border-bottom: 2px solid;
+    border-color: black;
+    padding: 10px 10px;
+    border-radius: 12px;
+    /*padding: 5px;*/
+    transform: translate(-50%, 180%); /*ancho,alto*/
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.names {
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+.title{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titleF{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+img{
+    width: 32%;
+}
+.sellers{
+    text-align: center;
+}
